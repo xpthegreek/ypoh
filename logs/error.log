@@ -1,0 +1,1 @@
+2021-01-03 17:29:10 Warning: DebugKit is disabling itself as your host `yourplansourhands.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 3, 2021, 4:15:11 PM
+    Author     : grego
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 2, 2021, 11:31:42 PM
+    Author     : grego
+*/
+
+html,body{
+    height:100%;
+}
+
+.bgBlack {
+  background-color: black;
+}
+
+#header_text_big{
+  font-size: 2em;
+}
+
+.logoImg {
+  max-width: 50%;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 4px 4px;
+  grid-template-areas:
+    ". . . . . . ."
+    ". LOGO LOGO LOGO LOGO LOGO ."
+    ". LOGO LOGO LOGO LOGO LOGO ."
+    ". . . . . . ."
+    ". . . . . . .";
+}
+
+.LOGO { grid-area: LOGO; }

@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "access855979262.webspace-data.io",
+  "port": "22",
+  "target": "/clickandbuilds/cakephp/ypoh",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "u103347587",
+  "watch": [],
+  "transport": "scp",
+  "password": "Sept1590!"
+}
